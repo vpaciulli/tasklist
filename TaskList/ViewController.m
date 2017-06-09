@@ -73,11 +73,28 @@
   }
 }
 
+-(BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath{
+  return YES;
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+  [self removeFromCoreData:indexPath.row];
+  [self.taskArray removeObjectAtIndex:indexPath.row];
+  [self.taskTableView reloadData];
+}
+
 #pragma mark - CoreData;
 - (void) saveToCoreData:(NSString *)taskName{
   NSManagedObjectContext *context = [(AppDelegate*)[[UIApplication sharedApplication] delegate] managedObjectContext];
   NSManagedObject *row = [NSEntityDescription insertNewObjectForEntityForName:@"Task" inManagedObjectContext:context];
   [row setValue:taskName forKey:@"taskname"];
+  [context save:nil];
+}
+
+-(void) removeFromCoreData:(NSInteger) index{
+  NSManagedObjectContext *context = [(AppDelegate*)[[UIApplication sharedApplication] delegate] managedObjectContext];
+  NSManagedObject *row = [self.arr objectAtIndex:index];
+  [context deleteObject:row];
   [context save:nil];
 }
 
