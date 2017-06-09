@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  TaskList
+//  AppDelegate
 //
-//  Created by chenyufeng on 15/11/1.
-//  Copyright © 2015年 chenyufengweb. All rights reserved.
+//  Created by Rafa on 02/11/17.
+//  Copyright © 2017 RAFONCIO. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

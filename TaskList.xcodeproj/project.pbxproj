@@ -16,6 +16,7 @@
 		71DEABDB1BE5AF8B0007758B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DEABD91BE5AF8B0007758B /* LaunchScreen.storyboard */; };
 		71DEABE61BE5AF8B0007758B /* TaskListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DEABE51BE5AF8B0007758B /* TaskListTests.m */; };
 		71DEABF11BE5AF8B0007758B /* TaskListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DEABF01BE5AF8B0007758B /* TaskListUITests.m */; };
+		CFFB73DC1EEB168C00889863 /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFB73DB1EEB168C00889863 /* TaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		71DEABEC1BE5AF8B0007758B /* TaskListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DEABF01BE5AF8B0007758B /* TaskListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskListUITests.m; sourceTree = "<group>"; };
 		71DEABF21BE5AF8B0007758B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFB73DA1EEB168C00889863 /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
+		CFFB73DB1EEB168C00889863 /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +106,9 @@
 		71DEABC71BE5AF8B0007758B /* TaskList */ = {
 			isa = PBXGroup;
 			children = (
-				71DEABCB1BE5AF8B0007758B /* AppDelegate.h */,
-				71DEABCC1BE5AF8B0007758B /* AppDelegate.m */,
-				71DEABCE1BE5AF8B0007758B /* ViewController.h */,
-				71DEABCF1BE5AF8B0007758B /* ViewController.m */,
-				71DEABD11BE5AF8B0007758B /* Main.storyboard */,
-				71DEABD71BE5AF8B0007758B /* Assets.xcassets */,
-				71DEABD91BE5AF8B0007758B /* LaunchScreen.storyboard */,
-				71DEABDC1BE5AF8B0007758B /* Info.plist */,
-				71DEABD41BE5AF8B0007758B /* TaskList.xcdatamodeld */,
+				CFFB73E01EEB179B00889863 /* AppDelegate */,
+				CFFB73DF1EEB178D00889863 /* ViewControllers */,
+				CFFB73DE1EEB177F00889863 /* InterfaceBuilder */,
 				71DEABC81BE5AF8B0007758B /* Supporting Files */,
 			);
 			path = TaskList;
@@ -120,6 +117,9 @@
 		71DEABC81BE5AF8B0007758B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				71DEABD71BE5AF8B0007758B /* Assets.xcassets */,
+				71DEABDC1BE5AF8B0007758B /* Info.plist */,
+				71DEABD41BE5AF8B0007758B /* TaskList.xcdatamodeld */,
 				71DEABC91BE5AF8B0007758B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,6 +141,35 @@
 				71DEABF21BE5AF8B0007758B /* Info.plist */,
 			);
 			path = TaskListUITests;
+			sourceTree = "<group>";
+		};
+		CFFB73DE1EEB177F00889863 /* InterfaceBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				71DEABD91BE5AF8B0007758B /* LaunchScreen.storyboard */,
+				71DEABD11BE5AF8B0007758B /* Main.storyboard */,
+			);
+			name = InterfaceBuilder;
+			sourceTree = "<group>";
+		};
+		CFFB73DF1EEB178D00889863 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				71DEABCE1BE5AF8B0007758B /* ViewController.h */,
+				71DEABCF1BE5AF8B0007758B /* ViewController.m */,
+				CFFB73DA1EEB168C00889863 /* TaskViewController.h */,
+				CFFB73DB1EEB168C00889863 /* TaskViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CFFB73E01EEB179B00889863 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				71DEABCB1BE5AF8B0007758B /* AppDelegate.h */,
+				71DEABCC1BE5AF8B0007758B /* AppDelegate.m */,
+			);
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +307,7 @@
 			files = (
 				71DEABD61BE5AF8B0007758B /* TaskList.xcdatamodeld in Sources */,
 				71DEABD01BE5AF8B0007758B /* ViewController.m in Sources */,
+				CFFB73DC1EEB168C00889863 /* TaskViewController.m in Sources */,
 				71DEABCD1BE5AF8B0007758B /* AppDelegate.m in Sources */,
 				71DEABCA1BE5AF8B0007758B /* main.m in Sources */,
 			);
@@ -505,6 +535,7 @@
 				71DEABF71BE5AF8B0007758B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71DEABF81BE5AF8B0007758B /* Build configuration list for PBXNativeTarget "TaskListTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +544,7 @@
 				71DEABFA1BE5AF8B0007758B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71DEABFB1BE5AF8B0007758B /* Build configuration list for PBXNativeTarget "TaskListUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +553,7 @@
 				71DEABFD1BE5AF8B0007758B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

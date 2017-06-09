@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "47F97A93EEAD4E771A5B1B303BDC91CD5C4A1795",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A4222B2B923EBA5C60BC1AC7B76699707E7AF8CF" : 9223372036854775807,
+    "47F97A93EEAD4E771A5B1B303BDC91CD5C4A1795" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3B7F613B-B11E-4AFA-8872-20F3761430B4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A4222B2B923EBA5C60BC1AC7B76699707E7AF8CF" : "",
+    "47F97A93EEAD4E771A5B1B303BDC91CD5C4A1795" : "iOS-TaskList\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TaskList",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TaskList.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:chenyufeng1991\/iOS-TaskList.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "47F97A93EEAD4E771A5B1B303BDC91CD5C4A1795"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vpaciulli\/vpaciulli.github.io.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A4222B2B923EBA5C60BC1AC7B76699707E7AF8CF"
+    }
+  ]
+}
