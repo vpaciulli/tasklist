@@ -14,8 +14,6 @@
 		71DEABD61BE5AF8B0007758B /* TaskList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71DEABD41BE5AF8B0007758B /* TaskList.xcdatamodeld */; };
 		71DEABD81BE5AF8B0007758B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DEABD71BE5AF8B0007758B /* Assets.xcassets */; };
 		71DEABDB1BE5AF8B0007758B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DEABD91BE5AF8B0007758B /* LaunchScreen.storyboard */; };
-		71DEABE61BE5AF8B0007758B /* TaskListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DEABE51BE5AF8B0007758B /* TaskListTests.m */; };
-		71DEABF11BE5AF8B0007758B /* TaskListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DEABF01BE5AF8B0007758B /* TaskListUITests.m */; };
 		CFFB73DC1EEB168C00889863 /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFB73DB1EEB168C00889863 /* TaskViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -49,10 +47,8 @@
 		71DEABDA1BE5AF8B0007758B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71DEABDC1BE5AF8B0007758B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71DEABE11BE5AF8B0007758B /* TaskListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71DEABE51BE5AF8B0007758B /* TaskListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskListTests.m; sourceTree = "<group>"; };
 		71DEABE71BE5AF8B0007758B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71DEABEC1BE5AF8B0007758B /* TaskListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71DEABF01BE5AF8B0007758B /* TaskListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskListUITests.m; sourceTree = "<group>"; };
 		71DEABF21BE5AF8B0007758B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFFB73DA1EEB168C00889863 /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
 		CFFB73DB1EEB168C00889863 /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
@@ -128,7 +124,6 @@
 		71DEABE41BE5AF8B0007758B /* TaskListTests */ = {
 			isa = PBXGroup;
 			children = (
-				71DEABE51BE5AF8B0007758B /* TaskListTests.m */,
 				71DEABE71BE5AF8B0007758B /* Info.plist */,
 			);
 			path = TaskListTests;
@@ -137,7 +132,6 @@
 		71DEABEF1BE5AF8B0007758B /* TaskListUITests */ = {
 			isa = PBXGroup;
 			children = (
-				71DEABF01BE5AF8B0007758B /* TaskListUITests.m */,
 				71DEABF21BE5AF8B0007758B /* Info.plist */,
 			);
 			path = TaskListUITests;
@@ -317,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71DEABE61BE5AF8B0007758B /* TaskListTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71DEABF11BE5AF8B0007758B /* TaskListUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
