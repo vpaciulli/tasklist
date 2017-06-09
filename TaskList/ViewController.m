@@ -62,7 +62,7 @@
   
   if ([inputStr  isEqual: @""]) {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"OPS" message:@"Digite o nome da sua Tarefa" preferredStyle:UIAlertControllerStyleAlert];
-    [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil]];
+    [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
     [self presentViewController:alert animated:true completion:nil];
   } else {
     [self saveToCoreData:inputStr];
